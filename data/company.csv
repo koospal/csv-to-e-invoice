@@ -1,0 +1,2 @@
+CompanyHRB;CompanyName;CompanyPersonName;CompanyStreet;CompanyPostCode;CompanyCity;CompanyCountryID;CompanyTelefonNumber;CompanyEmail;CompanyRegisternameAndTown;CompanyPayingInformation;CompanyIBAN;CompanyBIC
+H12345;Muster GmbH;Hans Muster;Musterstrasse;12345;Musterstadt;DE;1234567890;office@mustergmbh.de;Handelsregister Musterstadt;SEPA credit transfer;DE1234567890;BICBIC
