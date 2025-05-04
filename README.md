@@ -17,13 +17,13 @@ Note: The skript creates a copy of the used csv-files in the *outputfolder* with
 If an old subfolder *files* exists in *outputfolder* it will be moved to the subfolder with name *process-id*. 
 
 How to use:
-- 1. Fill data/company.csv with your company data
-- 2. Fill data/invoice.csv with one or more invoice data 
-- 3. bin/crt-serial-letter-from-csv myinvoices/ data/e-invoice-pattern.xml data/company.csv
-     asuming your company ID is MyCompanyID
-- 4. cp myinvoices/files/MyCompanyID myinvoices/files
-- 5. bin/crt-serial-letter-from-csv myinvoices/ myinvoices/MyCompanyID data/invoice.csv
-- 6. find your invoices in myinvoices/files
-- 7. check whether your invoices are correct. I do it with chatgpt.
+ 1. Fill data/company.csv with your company data
+ 2. Fill data/invoice.csv with one or more invoice data 
+ 3. bin/crt-serial-letter-from-csv myinvoices/ data/e-invoice-pattern.xml data/company.csv //
+    asuming your company ID is MyCompanyID
+ 4. cp myinvoices/files/MyCompanyID myinvoices/files
+ 5. bin/crt-serial-letter-from-csv myinvoices/ myinvoices/MyCompanyID data/invoice.csv
+ 6. find your invoices in myinvoices/files
+ 7. check whether your invoices are correct. I do it with chatgpt.
 Note: If you want to change the column headers in data/invoice.csv or data/company.csv
 you have to change the pattern in data/e-invoice-pattern.xml too.
