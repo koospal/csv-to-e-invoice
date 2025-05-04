@@ -19,7 +19,7 @@ If an old subfolder *files* exists in *outputfolder* it will be moved to the sub
 How to use:
  1. Fill data/company.csv with your company data
  2. Fill data/invoice.csv with one or more invoice data 
- 3. bin/crt-serial-letter-from-csv myinvoices/ data/e-invoice-pattern.xml data/company.csv //
+ 3. bin/crt-serial-letter-from-csv myinvoices/ data/e-invoice-pattern.xml data/company.csv<br>
     asuming your company ID is MyCompanyID
  4. cp myinvoices/files/MyCompanyID myinvoices/files
  5. bin/crt-serial-letter-from-csv myinvoices/ myinvoices/MyCompanyID data/invoice.csv
