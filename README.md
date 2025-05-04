@@ -3,11 +3,11 @@ Simple bashskript to create an e-invoice with one item from two csv-files
 
 The bashskript bin/crt-serial-letter-from-csv creates an e-invoice
 in two steps:
-- Create an invoice-pattern for the company
-  bin/crt-serial-letter-from-csv example/ data/e-invoice-pattern.xml data/company.csv 
+- Create an invoice-pattern for the company<br>
+  bin/crt-serial-letter-from-csv example/ data/e-invoice-pattern.xml data/company.csv <br>
   example creates the invoice-pattern H12345 for this company in example/files
-- Create an invoice from data invoice.csv for the company H12345
-  bin/crt-serial-letter-from-csv example/ data/H12345 data/invoice.csv
+- Create an invoice from data invoice.csv for the company H12345 <br>
+  bin/crt-serial-letter-from-csv example/ data/H12345 data/invoice.csv <br>
   example creates the invoice R2025001 in example/files 
 
 The e-invoice-pattern is created with the help of chatgpt.
@@ -19,7 +19,7 @@ If an old subfolder *files* exists in *outputfolder* it will be moved to the sub
 How to use:
  1. Fill data/company.csv with your company data
  2. Fill data/invoice.csv with one or more invoice data 
- 3. bin/crt-serial-letter-from-csv myinvoices/ data/e-invoice-pattern.xml data/company.csv<br>
+ 3. bin/crt-serial-letter-from-csv myinvoices/ data/e-invoice-pattern.xml data/company.csv  <br>
     asuming your company ID is MyCompanyID
  4. cp myinvoices/files/MyCompanyID myinvoices/files
  5. bin/crt-serial-letter-from-csv myinvoices/ myinvoices/MyCompanyID data/invoice.csv
