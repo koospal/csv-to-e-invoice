@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>`
-
+<?xml version="1.0" encoding="UTF-8"?>
 <rsm:CrossIndustryInvoice xmlns:rsm="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100" xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100" xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100">
   <rsm:ExchangedDocumentContext>
     <ram:BusinessProcessSpecifiedDocumentContextParameter>
@@ -13,7 +12,7 @@
     <ram:ID>#InvoiceID#</ram:ID>
     <ram:TypeCode>380</ram:TypeCode>
     <ram:IssueDateTime>
-      <udt:DateTimeString format="102">#InvoiceDate#</udt:DateTimeString>
+      <udt:DateTimeString format="203">#InvoiceDate#</udt:DateTimeString>
     </ram:IssueDateTime>
   </rsm:ExchangedDocument>
   <rsm:SupplyChainTradeTransaction>
@@ -127,16 +126,16 @@
       </ram:ApplicableTradeTax>
       <ram:BillingSpecifiedPeriod>
         <ram:StartDateTime>
-          <udt:DateTimeString format="102">#InvoiceDate#</udt:DateTimeString>
+          <udt:DateTimeString format="203">#InvoiceDate#</udt:DateTimeString>
         </ram:StartDateTime>
         <ram:EndDateTime>
-          <udt:DateTimeString format="102">#InvoiceLimitDate#</udt:DateTimeString>
+          <udt:DateTimeString format="203">#InvoiceLimitDate#</udt:DateTimeString>
         </ram:EndDateTime>
       </ram:BillingSpecifiedPeriod>
       <ram:SpecifiedTradePaymentTerms>
         <ram:Description>#InvoicePayingDescription#</ram:Description>
         <ram:DueDateDateTime>
-          <udt:DateTimeString format="102">#InvoiceDate#</udt:DateTimeString>
+          <udt:DateTimeString format="203">#InvoiceDate#</udt:DateTimeString>
         </ram:DueDateDateTime>
       </ram:SpecifiedTradePaymentTerms>
       <ram:SpecifiedTradeSettlementHeaderMonetarySummation>
