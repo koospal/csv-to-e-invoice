@@ -94,7 +94,6 @@ cp $Msgfile $TEMPFILE
 cd files
 for i in *
  do
-  $DEBUG $i
   cp $TEMPFILE $i
   z=0
   zeile=`grep $i ../$Csvfilesnew`
