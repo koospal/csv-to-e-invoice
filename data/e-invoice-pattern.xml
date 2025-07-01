@@ -12,7 +12,7 @@
     <ram:ID>#InvoiceID#</ram:ID>
     <ram:TypeCode>380</ram:TypeCode>
     <ram:IssueDateTime>
-      <udt:DateTimeString format="203">#InvoiceDate#</udt:DateTimeString>
+      <udt:DateTimeString format="102">#InvoiceDate#</udt:DateTimeString>
     </ram:IssueDateTime>
   </rsm:ExchangedDocument>
   <rsm:SupplyChainTradeTransaction>
@@ -63,15 +63,6 @@
           <ram:CityName>#CompanyCity#</ram:CityName>
           <ram:CountryID>#CompanyCountryID#</ram:CountryID>
         </ram:PostalTradeAddress>
-      <ram:PartyLegalEntity>
-        <ram:RegistrationName>#CompanyName#</ram:RegistrationName>
-        <ram:CompanyID>#CompanyHRB#</ram:CompanyID> <!-- Handelsregisternummer -->
-        <ram:SellerLegalRegistration>
-          <ram:ID schemeID="HRB">#CompanyHRB#</ram:ID>
-          <ram:RegistrationTypeCode>CommercialRegister</ram:RegistrationTypeCode>
-          <ram:RegistrationOffice>#CompanyRegisternameAndTown#</ram:RegistrationOffice>
-        </ram:SellerLegalRegistration>
-      </ram:PartyLegalEntity>
         <ram:URIUniversalCommunication>
           <ram:URIID schemeID="EM">#CompanyEmail#</ram:URIID>
         </ram:URIUniversalCommunication>
@@ -124,18 +115,10 @@
         <ram:CategoryCode>S</ram:CategoryCode>
         <ram:RateApplicablePercent>#VatPercent#</ram:RateApplicablePercent>
       </ram:ApplicableTradeTax>
-      <ram:BillingSpecifiedPeriod>
-        <ram:StartDateTime>
-          <udt:DateTimeString format="203">#InvoiceDate#</udt:DateTimeString>
-        </ram:StartDateTime>
-        <ram:EndDateTime>
-          <udt:DateTimeString format="203">#InvoiceLimitDate#</udt:DateTimeString>
-        </ram:EndDateTime>
-      </ram:BillingSpecifiedPeriod>
       <ram:SpecifiedTradePaymentTerms>
         <ram:Description>#InvoicePayingDescription#</ram:Description>
         <ram:DueDateDateTime>
-          <udt:DateTimeString format="203">#InvoiceDate#</udt:DateTimeString>
+          <udt:DateTimeString format="102">#InvoiceDate#</udt:DateTimeString>
         </ram:DueDateDateTime>
       </ram:SpecifiedTradePaymentTerms>
       <ram:SpecifiedTradeSettlementHeaderMonetarySummation>
