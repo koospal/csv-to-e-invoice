@@ -67,10 +67,10 @@
           <ram:URIID schemeID="EM">#CompanyEmail#</ram:URIID>
         </ram:URIUniversalCommunication>
         <ram:SpecifiedTaxRegistration>
-          <ram:ID schemeID="VA">CompanyVatID</ram:ID>
+          <ram:ID schemeID="VA">#CompanyVatID#</ram:ID>
         </ram:SpecifiedTaxRegistration>
         <ram:SpecifiedTaxRegistration>
-          <ram:ID schemeID="FC">CompanyTaxID</ram:ID>
+          <ram:ID schemeID="FC">#CompanyTaxID#</ram:ID>
         </ram:SpecifiedTaxRegistration>
       </ram:SellerTradeParty>
       <ram:BuyerTradeParty>
