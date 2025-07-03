@@ -26,5 +26,6 @@ How to use:
  5. bin/crt-serial-letter-from-csv myinvoices/ myinvoices/MyCompanyID data/invoice.csv
  6. find your invoices in myinvoices/files
  7. check whether your invoices are correct. I do it with the link above.
+
 Note: If you want to change the column headers in data/invoice.csv or data/company.csv
 you have to change the pattern in data/e-invoice-pattern.xml too.
