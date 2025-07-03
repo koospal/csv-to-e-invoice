@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>`
-
+<?xml version="1.0" encoding="UTF-8"?>
 <rsm:CrossIndustryInvoice xmlns:rsm="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100" xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100" xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100">
   <rsm:ExchangedDocumentContext>
     <ram:BusinessProcessSpecifiedDocumentContextParameter>
@@ -64,23 +63,14 @@
           <ram:CityName>Musterstadt</ram:CityName>
           <ram:CountryID>DE</ram:CountryID>
         </ram:PostalTradeAddress>
-      <ram:PartyLegalEntity>
-        <ram:RegistrationName>Muster GmbH</ram:RegistrationName>
-        <ram:CompanyID>H12345</ram:CompanyID> <!-- Handelsregisternummer -->
-        <ram:SellerLegalRegistration>
-          <ram:ID schemeID="HRB">H12345</ram:ID>
-          <ram:RegistrationTypeCode>CommercialRegister</ram:RegistrationTypeCode>
-          <ram:RegistrationOffice>Handelsregister Musterstadt</ram:RegistrationOffice>
-        </ram:SellerLegalRegistration>
-      </ram:PartyLegalEntity>
         <ram:URIUniversalCommunication>
           <ram:URIID schemeID="EM">office@mustergmbh.de</ram:URIID>
         </ram:URIUniversalCommunication>
         <ram:SpecifiedTaxRegistration>
-          <ram:ID schemeID="VA">CompanyVatID</ram:ID>
+          <ram:ID schemeID="VA">DE1234567</ram:ID>
         </ram:SpecifiedTaxRegistration>
         <ram:SpecifiedTaxRegistration>
-          <ram:ID schemeID="FC">CompanyTaxID</ram:ID>
+          <ram:ID schemeID="FC">12/2345/67</ram:ID>
         </ram:SpecifiedTaxRegistration>
       </ram:SellerTradeParty>
       <ram:BuyerTradeParty>
@@ -111,7 +101,7 @@
         <ram:TypeCode>58</ram:TypeCode>
         <ram:Information>SEPA credit transfer</ram:Information>
         <ram:PayeePartyCreditorFinancialAccount>
-          <ram:IBANID>DE1234567890</ram:IBANID>
+          <ram:IBANID>DE89 1002 0030 1234 5678 90</ram:IBANID>
           <ram:AccountName>Muster GmbH</ram:AccountName>
         </ram:PayeePartyCreditorFinancialAccount>
         <ram:PayeeSpecifiedCreditorFinancialInstitution>
@@ -125,14 +115,6 @@
         <ram:CategoryCode>S</ram:CategoryCode>
         <ram:RateApplicablePercent>#VatPercent#</ram:RateApplicablePercent>
       </ram:ApplicableTradeTax>
-      <ram:BillingSpecifiedPeriod>
-        <ram:StartDateTime>
-          <udt:DateTimeString format="102">#InvoiceDate#</udt:DateTimeString>
-        </ram:StartDateTime>
-        <ram:EndDateTime>
-          <udt:DateTimeString format="102">#InvoiceLimitDate#</udt:DateTimeString>
-        </ram:EndDateTime>
-      </ram:BillingSpecifiedPeriod>
       <ram:SpecifiedTradePaymentTerms>
         <ram:Description>#InvoicePayingDescription#</ram:Description>
         <ram:DueDateDateTime>
