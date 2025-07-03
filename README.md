@@ -11,7 +11,8 @@ in two steps:
   example creates the invoice R2025001 in example/files 
 
 The e-invoice-pattern is created with the help of chatgpt.
-I used to check my created invoices with chatgpt.
+I used to check my created invoices with:
+https://erechnungsvalidator.service-bw.de/
 
 Note: The skript creates a copy of the used csv-files in the *outputfolder* with praefix *new* using the process-id.
 If an old subfolder *files* exists in *outputfolder* it will be moved to the subfolder with name *process-id*. 
